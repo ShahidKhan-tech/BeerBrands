@@ -1,0 +1,249 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 1.25 all ease-in;
+  color: #d0021b;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.button {
+  color: #e6e6e6;
+  background: #0a0a0a;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a, #0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.column input {
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  font-size: 16px;
+  width: 80%;
+}
+
+.column label {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.reset {
+  border: none;
+  background: transparent;
+  color: #d0021b;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
+.language.li {
+  transition: all 0.5s ease-in;
+}
+
+.languages li.selected {
+  color: #d0021b;
+}
+
+.languages li:hover {
+  color: #f44336;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.profile a:hover {
+  border-bottom: 2px solid #d0021b;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 25%;
+  justify-content: center;
+  align-items: top;
+}
+
+.profileInfo > div {
+  width: 250px;
+  margin: 10px;
+  align-self: top;
+  padding: 15px;
+}
+
+.profileLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileRepos ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 33%;
+  justify-content: center;
+}
+
+.repo {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+}
+
+.repo > * {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.repo .stats {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px 0px;
+}
+
+.button-repo {
+  color: #e6e6e6;
+  background: #0a0a0a;
+  border: 1px solid #e6e6e6;
+  font-size: 15px;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+  padding: 7px 0;
+  margin: 9px auto;
+  transition: 0.05s all ease-in;
+}
+
+.button-repo:hover {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+}
+
+.fa {
+  padding-left: 5px;
+}
